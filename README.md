@@ -1,22 +1,7 @@
 ## Estrutura de Diretórios
 
 
-Sistema-Analise-Dados-Corporativos/
-├── data/
-│   ├── sample_data.csv             # Dados de exemplo para testes (caso queira incluir algum arquivo de amostra)
-│   ├── schema.sql                  # Definições das tabelas e estrutura do banco de dados
-│   └── migrations/
-│       └── 001_create_tables.sql   # Script de criação das tabelas
-├── sql/
-│   ├── 01_analise_marketing.sql    # Query de marketing
-│   ├── 02_analise_reservas.sql     # Query de reservas de hotéis
-│   ├── 03_analise_vendas.sql       # Query de vendas de produtos
-│   ├── 04_analise_sinistros.sql    # Query de sinistros de seguros
-│   └── 05_recomendacao_produtos.sql # Query de recomendação de produtos
-├── reports/
-│   └── analysis_report.pdf         # Relatório gerado da análise dos dados
-├── README.md
-└── .gitignore
+Sistema-Analise-Dados-Corporativos/ │── 📂 data/ # Diretório para arquivos de dados │ ├── sample_data.csv # Dados de exemplo para testes │ │── 📂 sql/ # Diretório contendo scripts SQL │ ├── schema.sql # Definições das tabelas e estrutura do banco de dados │ ├── 📂 migrations/ # Scripts de criação e atualização do banco de dados │ │ ├── 001_create_tables.sql │ ├── 01_analise_marketing.sql # Query de análise de marketing │ ├── 02_analise_reservas.sql # Query de análise de reservas de hotéis │ ├── 03_analise_vendas.sql # Query de análise de vendas de produtos │ ├── 04_analise_sinistros.sql # Query de análise de sinistros de seguros │ ├── 05_recomendacao_produtos.sql # Query de recomendação de produtos │ │── 📂 reports/ # Diretório de relatórios gerados │ ├── analysis_report.pdf # Relatório gerado da análise dos dados │ │── README.md # Documentação do projeto │── .gitignore # Arquivo para ignorar arquivos desnecessários no Git
 
 
 # Sistema de Análise de Dados Corporativos Integrados
